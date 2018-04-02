@@ -1,3 +1,3 @@
 # Concourse Templating
 
-Simple tool to generate templatedConcourseCI pipelines.
+Simple tool to generate templated ConcourseCI pipelines.
