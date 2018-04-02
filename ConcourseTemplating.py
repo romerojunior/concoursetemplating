@@ -46,13 +46,3 @@ class ConcourseTemplating:
     def apply_attributes(self):
         for template in self.list_templates():
             print template.render(self.attributes.attribute_map) 
-
-
-# testing:
-ci_templating = ConcourseTemplating(
-    ConcourseAttributes(attribute_file='/Users/romerojnr/Repositories/templating/attributes.yml'), 
-    ConcoursePipelines(root_dir='/Users/romerojnr/Repositories/templating/example')
-)
-
-ci_templating.apply_attributes()
-
