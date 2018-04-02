@@ -1,0 +1,12 @@
+---
+branch: development
+resource_list:
+  - uri: test1.com
+    branch: my-branch1
+    name: my resource1
+  - uri: test2.com
+    branch: my-branch2
+    name: my resource2
+  - uri: test3.com
+    branch: my-branch3
+    name: my resource3

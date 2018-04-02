@@ -1,0 +1,6 @@
+resources:
+- name: test-a
+  type: git
+  source:
+    uri: https://github.com/test
+    branch: {{ branch }}

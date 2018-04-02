@@ -1,0 +1,8 @@
+resources:
+{% for resource in resource_list %}
+- name: {{ resource.name }}
+  type: git
+  source:
+    uri: {{ resource.uri }}
+    branch: {{ resource.branch }}
+{% endfor %}
